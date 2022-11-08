@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+}
+h1
+{
+  color: gold;
+  background-color: darkred;
+  
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+table
+{
+  margin-left: 25%;
+  border-collapse: collapse;
+  border: 1px solid #959393;
+  width: 50%;
+}
+td, th
+{
+  border-bottom: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+
+tr:nth-child(odd)
+{
+  background-color: lightgray;
+}
+tr:nth-child(even)
+{
+  background-color:lightsteelblue;
+}
+
+tr:hover
+{
+  background-color: steelblue;
+  color: whitesmoke;
+}
+
+tr:first-child  
+{
+  background-color: #1a5e75;
+  color: whitesmoke;
+  border: 2px solid black;
+}
+
+footer
+{
+  margin-left: 25%;
+  text-align: center;
+  width: 50%;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: darkred;
+}
+button
+{
+  margin-right: 25%;
+  margin-left: 25%;
+  background-color: darkred;
+  color:  gold;
+}
